@@ -8,7 +8,8 @@
     "nuvc-mcp": "./index.js"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js",
+    "start:stdio": "node index.js"
   },
   "keywords": ["mcp", "ai", "startup", "vc", "business-intelligence", "nuvc", "smithery"],
   "homepage": "https://nuvc.ai/api-platform/keys",
