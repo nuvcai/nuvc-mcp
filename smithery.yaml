@@ -1,0 +1,27 @@
+name: nuvc
+description: VC-grade startup intelligence — score ideas, analyze markets, roast pitches, extract structured data from any pitch content
+version: 1.0.0
+homepage: https://nuvc.ai/api-platform/keys
+license: MIT
+
+startCommand:
+  type: stdio
+  command: node
+  args:
+    - index.js
+  env:
+    NUVC_API_KEY:
+      description: Your NUVC API key (starts with nuvc_). Get a free key at https://nuvc.ai/api-platform/keys
+      required: true
+
+tools:
+  - name: nuvc_score
+    description: Score any business idea 0-10 across 5 VC dimensions
+  - name: nuvc_analyze
+    description: Market, competitive, financial, or pitch deck analysis
+  - name: nuvc_roast
+    description: Brutally honest VC-perspective startup roast
+  - name: nuvc_extract
+    description: Extract structured fields from any pitch or business description
+  - name: nuvc_models
+    description: List available AI models and provider health

@@ -1,0 +1,26 @@
+{
+  "name": "nuvc-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for NUVC — VC-grade startup intelligence. Score ideas, analyze markets, extract pitch data.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "nuvc-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "ai", "startup", "vc", "business-intelligence", "nuvc", "smithery"],
+  "homepage": "https://nuvc.ai/api-platform/keys",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuvcai/nuvc-mcp"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
