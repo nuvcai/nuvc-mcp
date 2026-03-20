@@ -11,7 +11,7 @@ import { ListToolsRequestSchema, CallToolRequestSchema } from "@modelcontextprot
 import { TOOLS, HANDLERS } from "./lib/tools.js";
 
 const server = new Server(
-  { name: "nuvc", version: "1.0.0" },
+  { name: "nuvc", version: "1.1.0" },
   { capabilities: { tools: {} } }
 );
 

@@ -1,7 +1,7 @@
 {
   "name": "nuvc-mcp",
-  "version": "1.0.0",
-  "description": "MCP server for NUVC — VC-grade startup intelligence. Score ideas, analyze markets, extract pitch data.",
+  "version": "1.1.0",
+  "description": "MCP server for NUVC — VC-grade startup intelligence for founders and investors. Score ideas, analyze markets, compute venture math, evaluate fund economics.",
   "type": "module",
   "main": "index.js",
   "bin": {

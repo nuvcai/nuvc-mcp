@@ -26,7 +26,7 @@ const PORT = parseInt(process.env.PORT || "3000", 10);
 
 function createMcpServer() {
   const server = new Server(
-    { name: "nuvc", version: "1.0.0" },
+    { name: "nuvc", version: "1.1.0" },
     { capabilities: { tools: {} } }
   );
 
@@ -57,7 +57,7 @@ const httpServer = http.createServer(async (req, res) => {
   // Health check
   if (req.method === "GET" && req.url === "/") {
     res.writeHead(200, { "Content-Type": "application/json" });
-    res.end(JSON.stringify({ ok: true, name: "nuvc-mcp", version: "1.0.0" }));
+    res.end(JSON.stringify({ ok: true, name: "nuvc-mcp", version: "1.1.0" }));
     return;
   }
 

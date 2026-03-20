@@ -1,6 +1,6 @@
 name: nuvc
-description: VC-grade startup intelligence — score ideas, analyze markets, roast pitches, extract structured data from any pitch content
-version: 1.0.0
+description: VC-grade startup intelligence for founders and investors — score ideas, analyze markets, compute venture math, evaluate fund economics, and extract structured data
+version: 1.1.0
 homepage: https://nuvc.ai/api-platform/keys
 license: MIT
 
@@ -25,3 +25,7 @@ tools:
     description: Extract structured fields from any pitch or business description
   - name: nuvc_models
     description: List available AI models and provider health
+  - name: nuvc_venture_math
+    description: Compute burn multiple, LTV/CAC, Rule of 40, dilution, and benchmark against VC thresholds
+  - name: nuvc_fund_economics
+    description: Fund economics for LPs — fee drag, GP alignment, J-curve, portfolio construction
