@@ -14,6 +14,7 @@
 | Tool | What it does |
 |------|-------------|
 | `nuvc_score` | VCGrade 0-10 score across 5 dimensions — like having a VC partner review your idea |
+| `nuvc_match_investors` | Find best-fit investors from 3,700+ database using AI semantic matching |
 | `nuvc_analyze` | Market sizing, competitive analysis, financial review, or full pitch evaluation |
 | `nuvc_roast` | Brutally honest but constructive VC-perspective startup roast |
 | `nuvc_extract` | Extract structured fields (revenue, stage, team, metrics) from any pitch text |
@@ -24,6 +25,7 @@
 | Tool | What it does |
 |------|-------------|
 | `nuvc_score` | Screen inbound deals — score any pitch content on a 0-10 scale in seconds |
+| `nuvc_match_investors` | Find co-investors or syndicate partners for a deal from 3,700+ investors |
 | `nuvc_venture_math` | Validate startup financials against stage-appropriate VC benchmarks |
 | `nuvc_fund_economics` | Fund economics from an LP lens — fee drag, GP alignment, J-curve, return decomposition |
 | `nuvc_fund_economics` | Portfolio construction — investable capital, implied portfolio count, deployment capacity |
@@ -86,12 +88,14 @@ Once connected, just ask your AI agent:
 
 **Founders:**
 - *"Score my startup idea — an AI tool that helps solo founders validate ideas"*
+- *"Find investors who back AI/ML startups at seed stage in Australia"*
 - *"What's the market like for AI-powered HR tools?"*
 - *"Roast this idea: Uber for dog walking but with blockchain"*
 - *"I have $1.2M ARR, $80K burn, 18 months runway. How do my metrics stack up for Series A?"*
 
 **VCs:**
 - *"Score this pitch: [paste founder's pitch text]"*
+- *"Find co-investors who do seed-stage FinTech deals in Southeast Asia"*
 - *"This founder says $500K ARR, 15% MoM growth, $200K burn at Seed. Run the math."*
 - *"We're raising a $30M Fund II with 2% fee, 20% carry, $500K avg check. What does portfolio construction look like?"*
 - *"Evaluate this fund: $50M AUM, 2.5x TVPI, 1.2x DPI, 18% net IRR, 2020 vintage"*
@@ -111,7 +115,7 @@ Once connected, just ask your AI agent:
 
 ## About NUVC
 
-NUVC is a VC-grade startup intelligence platform used by accelerators, angel networks, emerging fund managers, and family offices. Our AI engine has analyzed 250+ pitch decks.
+NUVC is a VC-grade startup intelligence platform used by accelerators, angel networks, emerging fund managers, and family offices. Our AI engine has analyzed 250+ pitch decks and matches against 3,700+ investors.
 
 - **Website:** [nuvc.ai](https://nuvc.ai)
 - **API Docs:** [nuvc.ai/api-platform/docs](https://nuvc.ai/api-platform/docs)
