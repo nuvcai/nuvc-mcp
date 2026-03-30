@@ -18,6 +18,11 @@
     "url": "https://github.com/nuvcai/nuvc-mcp"
   },
   "license": "MIT",
+  "contributors": [
+    { "name": "Tick Jiang", "url": "https://github.com/tickj" },
+    { "name": "NUVC AI", "url": "https://github.com/nuvcai" },
+    { "name": "Claude (Anthropic)", "url": "https://github.com/anthropics/claude-code" }
+  ],
   "engines": {
     "node": ">=18"
   },
